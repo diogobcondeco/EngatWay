@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="painelColor">#75173A</color>
+    <color name="topBarColorDark">#5E0d24</color>
+    <color name="intrigasVistas">#CCCCCC</color>
+    <color name="titles">#A1254C</color>
+    <color name="iconesClick">#75173A</color>
+    <color name="fontsColorLight">#D4CFCA</color>
+    <color name="fontsColorDark">#040408</color>
+    <color name="fontsColorGrey">#616163</color>
+    <color name="fontsColorGreyDark">#393939</color>
+    <color name="branco">#ffffff</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
+
+    <color name="markIntrigas">#75173A</color>
+    <color name="markRumores">#FF4081</color>
+    <color name="markAnuncios">#fcb91f</color>
+    <color name="markSucesso">#03540B</color>
+
+</resources>

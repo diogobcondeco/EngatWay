@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.engatway.PerfilActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/mdtp_dark_gray"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:background="@color/iconesClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnIntriga"
+            android:layout_width="0dp"
+            android:background="@color/iconesClick"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:gravity="center"
+            android:text="@string/criar_intrigas"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnPerfil"
+            android:background="@color/iconesClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:gravity="center"
+            android:text="@string/perfil"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textViewSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textViewSubject"
+            android:layout_below="@+id/textViewSubject"
+            android:layout_marginTop="70dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewTarget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textViewMessage"
+            android:layout_below="@+id/textViewMessage"
+            android:layout_marginTop="70dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textViewTarget"
+            android:layout_below="@+id/textViewTarget"
+            android:layout_marginTop="70dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_concordo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textViewDescription"
+            android:layout_centerHorizontal="true"
+            android:background="@color/iconesClick"
+            android:fontFamily="@font/robotomedium"
+            android:layout_marginTop="40dp"
+            android:textAllCaps="false"
+            android:textColor="@color/branco"
+            android:textSize="20sp"
+            android:text="Concordo" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
+

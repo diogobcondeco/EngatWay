@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">EngatWay</string>
+    <string name="text_accounts">Utilizadores</string>
+    <string name="hint_name">Nome:</string>
+    <string name="hint_name_user">Nome utilizador</string>
+    <string name="hint_email">Email:</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirmar Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Registar</string>
+    <string name="error_message_name">Preencha com nome Completo</string>
+    <string name="error_message_email">Insira Email Valido</string>
+    <string name="error_message_age">Idade</string>
+    <string name="error_message_password">Password</string>
+    <string name="success_message">Registo criado com sucesso</string>
+    <string name="text_not_member">Ainda nao tem conta? Crie uma!</string>
+    <string name="text_already_member">Já é um membro? Login</string>
+    <string name="error_email_exists">Email ja existente</string>
+    <string name="error_password_match">Password não correspondem</string>
+    <string name="error_valid_email_password">Email ou Password incorretos</string>
+    <string name="action_settings">Opções</string>
+    <string name="text_hello">Olá,</string>
+    <string name="text_title">EngateWay</string>
+    <string name="forgot_pass">Esqueceu a Password?</string>
+    <string name="hint_password2">**********</string>
+    <string name="remember_me">Lembrar utilizador</string>
+    <string name="j_um_membro_login">Já é um membro? Login</string>
+    <string name="data_de_nascimento">Data de nascimento</string>
+    <string name="mulher">Mulher</string>
+    <string name="homem">Homem</string>
+
+    //correção id visible error
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    //array para intrigas
+    <string-array name="mensagens">
+        <item>Tem interesse em</item>
+        <item>Gostava de conhecer o/a</item>
+        <item>Esta apaixonado pelo/a</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="criar_intrigas">Criar Intrigas</string>
+    <string name="perfil">Perfil</string>
+    <string name="hint_gender">Genero:</string>
+    <string name="hint_birthday">Data de nascimento</string>
+    <string name="amigo_intimo">Amigo intimo:</string>
+    <string name="reputa_o">Reputação:</string>
+    <string name="definir_um_amigo_intimo">Definir um amigo intimo</string>
+    <string name="criar_intriga">Criar Intriga</string>
+    <string name="alvo">Alvo</string>
+    <string name="descri_o">Descrição</string>
+
+
+</resources>
